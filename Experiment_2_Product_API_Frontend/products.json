@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Watch",
+    "price": 2499,
+    "rating": 4.4
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "price": 1799,
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "name": "USB-C Cable",
+    "price": 299,
+    "rating": 4.1
+  }
+]

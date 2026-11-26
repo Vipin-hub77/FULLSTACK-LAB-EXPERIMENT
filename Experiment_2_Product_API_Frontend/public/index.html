@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 2 - Product API</title>
+  <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+  <header><p>EXPRESS.JS LAB EXPERIMENT 2</p><h1>Product Catalogue</h1><span id="status">Connecting to API…</span></header>
+  <main>
+    <section class="form-card">
+      <h2>Add New Product</h2>
+      <form id="productForm">
+        <label>Product name<input id="name" required maxlength="80" placeholder="Enter product name"></label>
+        <label>Price (₹)<input id="price" type="number" min="0" step="0.01" required placeholder="Enter price"></label>
+        <label>Rating (0–5)<input id="rating" type="number" min="0" max="5" step="0.1" required value="4"></label>
+        <button type="submit">Add Product</button>
+      </form>
+      <p id="message" role="status"></p>
+    </section>
+    <section class="catalogue">
+      <div class="heading"><h2>All Products</h2><button id="refresh" class="light" type="button">Refresh</button></div>
+      <p class="total">Products displayed: <strong id="count">0</strong></p>
+      <div id="productList" class="grid">Loading products…</div>
+    </section>
+  </main>
+  <footer>Products are fetched from the Express API and rendered in the browser using JavaScript.</footer>
+</body>
+</html>

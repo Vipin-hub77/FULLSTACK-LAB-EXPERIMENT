@@ -1,0 +1,14 @@
+TWO SEPARATE EXPRESS LAB EXPERIMENTS
+
+1) Open Experiment_1_Product_CRUD in VS Code:
+   npm install
+   npm start
+   Browser: http://localhost:3001
+
+2) Open Experiment_2_Product_API_Frontend in VS Code:
+   npm install
+   npm start
+   Browser: http://localhost:3002
+
+Each experiment has its own package.json, server.js, products.json, public folder and README.
+Run them separately in their own VS Code terminal.
